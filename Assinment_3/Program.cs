@@ -10,6 +10,9 @@ namespace Assinment_3
     {
         static void Main(string[] args)
         {
+
+            Planet Earth = new Assignment_3.Planet("Earth",5555.63, 564645);
+
         }
     }
 }
