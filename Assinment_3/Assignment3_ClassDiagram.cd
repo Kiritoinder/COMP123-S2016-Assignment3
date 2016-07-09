@@ -30,5 +30,26 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Interface Name="Assinment_3.IHasRings">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasRings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assinment_3.IHasMoons">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasMoon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assinment_3.IHabitable">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHabitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

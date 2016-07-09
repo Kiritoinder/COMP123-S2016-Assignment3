@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-/*
-* Author: Inderjeet Singh
-* Student Number: 300874118
-* Date Created: June 24, 2016
-* Description: My Hero Class
-* Version: 0.0.3
-*/
+/**
+ * Author: Inderjeet Singh
+ * StudentNumber: 300874118
+ * Description: Driver class for Planet classes and Interfaces
+ * Version: 0.1.3
+ * DateCreated: July 5rd, 2016
+ * DateModified: July 8rd, 2016
+ */
 namespace Assinment_3
 {
 
