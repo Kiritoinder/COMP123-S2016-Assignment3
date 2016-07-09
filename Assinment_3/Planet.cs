@@ -21,11 +21,6 @@ namespace Assinment_3
             {
                 return this._diameter;
             }
-            set
-            {
-                this._diameter = value;
-            }
-
         }
 
         public double Mass
@@ -33,10 +28,6 @@ namespace Assinment_3
             get
             {
                 return this._mass;
-            }
-            set
-            {
-                this._mass = value;
             }
 
         }
@@ -59,10 +50,6 @@ namespace Assinment_3
             get
             {
                 return this._name;
-            }
-            set
-            {
-                this._name = value;
             }
         }
 
@@ -108,23 +95,20 @@ namespace Assinment_3
 
         public Planet(string name, double diameter, double mass)
         {
-            this.Name = name;
-            this.Diameter = diameter;
-            this.Mass = mass;
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
 
         }
 
         public override string ToString()
         {
-            string returnString = "++++++++++++++++++++++++++++++++++++++";
-            returnString += "Diameter: " + this.Diameter + "\n";
-            returnString += "Mass: " + this.Mass + "\n";
-            returnString += "Moon Count: " + this.MoonCount + "\n";
-            returnString += "Name: " + this.Name + "\n";
-            returnString += "Orbital Period: " + this.OrbitalPeriod + "\n";
-            returnString += "Ring Count: " + this.RingCount + "\n";
-            returnString += "Rotation Period: " + this.RotationPeriod + "\n";
-            returnString += "++++++++++++++++++++++++++++++++++++++";
+            string returnString = "++++++++++++++++++++++++++++++++++++++++++";
+            returnString += " " + "\n";
+            returnString += "The Name Of The Planet Is    : " + this.Name + "\n";
+            returnString += "The Diameter Of The Planet Is: " + this.Diameter + "\n";
+            returnString += "The Mass Of The Planet Is    : " + this.Mass + "\n";
+            returnString += "++++++++++++++++++++++++++++++++++++++++++";
 
             return returnString;
         }
