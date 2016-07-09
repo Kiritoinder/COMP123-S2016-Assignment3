@@ -17,13 +17,13 @@
   <Class Name="Assinment_3.GiantPlanet">
     <Position X="5.75" Y="0.5" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assinment_3.TerrestrialPlanet">
-    <Position X="5.75" Y="3" Width="4.75" />
+    <Position X="5.75" Y="3.75" Width="4.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>

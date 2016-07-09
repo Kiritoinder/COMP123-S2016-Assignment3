@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+/*
+* Author: Inderjeet Singh
+* Student Number: 300874118
+* Date Created: June 24, 2016
+* Description: My Hero Class
+* Version: 0.0.3
+*/
 namespace Assinment_3
 {
+
     public abstract class Planet 
     {
         private double _diameter;
@@ -15,6 +22,14 @@ namespace Assinment_3
         private int _ringCount;
         private double _rotationPeriod;
 
+        // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++
+
+        /**<summary>
+        * This is a property for our _diameter field.
+        * </summary>
+        *
+        * @property Diameters
+        */
         public double Diameter
         {
             get
@@ -23,6 +38,12 @@ namespace Assinment_3
             }
         }
 
+        /**<summary>
+        * This is a property for our _mass field.
+        * </summary>
+        *
+        * @property Mass
+        */
         public double Mass
         {
             get
@@ -32,6 +53,12 @@ namespace Assinment_3
 
         }
 
+        /**<summary>
+        * This is a property for our _moonCount field.
+        * </summary>
+        *
+        * @property MoonCount
+        */
         public int MoonCount
         {
             get
@@ -45,6 +72,12 @@ namespace Assinment_3
             }
         }
 
+        /**<summary>
+        * This is a property for our _name field.
+        * </summary>
+        *
+        * @property Name
+        */
         public String Name
         {
             get
@@ -53,6 +86,12 @@ namespace Assinment_3
             }
         }
 
+        /**<summary>
+        * This is a property for our _orbitalPeriod field.
+        * </summary>
+        *
+        * @property Orbital Period
+        */
         public double OrbitalPeriod
         {
             get
@@ -66,6 +105,12 @@ namespace Assinment_3
             }
         }
 
+        /**<summary>
+        * This is a property for our _ringCount field.
+        * </summary>
+        *
+        * @property RingCount
+        */
         public int RingCount
         {
             get
@@ -79,6 +124,12 @@ namespace Assinment_3
             }
         }
 
+        /**<summary>
+        * This is a property for our _rotationPeriod field.
+        * </summary>
+        *
+        * @property RotationalPeriod
+        */
         public double RotationPeriod
         {
             get
@@ -92,7 +143,18 @@ namespace Assinment_3
             }
         }
 
+        // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++
 
+        /** <summary>
+        * This constructor takes name, diameter, and mass as parameters
+        * and passes them to the PRIVATE INSTANCE VARIABLES.
+        * </summary>
+        *
+        * @constructor Planets
+        * @params {string} name
+        * @params {double} diameter
+        * @params {double} mass
+        */
         public Planet(string name, double diameter, double mass)
         {
             this._name = name;
@@ -100,7 +162,15 @@ namespace Assinment_3
             this._mass = mass;
 
         }
+        // PUBLIC METHODS +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+        /** <summary>
+        * This method ToString outputs Name, Diameter, and Mass 
+        * </summary>
+        *
+        * @method ToString
+        * returns {string}
+        */
         public override string ToString()
         {
             string returnString = "++++++++++++++++++++++++++++++++++++++++++";
@@ -112,8 +182,5 @@ namespace Assinment_3
 
             return returnString;
         }
-
-
-
-    }
-}
+    }// End of Namespace
+} //End of Program
